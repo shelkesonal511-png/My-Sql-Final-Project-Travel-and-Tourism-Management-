@@ -1,5 +1,5 @@
 # My-SQL-Final-Project-Travel-and-Tourism-Management
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/1e72720a-7c12-4aa3-bf13-1d655edb3ea8" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/1e72720a-7c12-4aa3-bf13-1d655edb3ea8" />
 
 > Final SQL project focused on Travel and Tourism Management. This project demonstrates database design, normalization, and SQL queries for managing bookings, customers, destinations, and tour packages. Ideal for academic or learning purposes in database management systems.
 
