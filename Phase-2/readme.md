@@ -1,10 +1,10 @@
-#🌍 Travel & Tourism Management Database (Phase-2 SQL Project)
-##📘 Overview
+# 🌍 Travel & Tourism Management Database (Phase-2 SQL Project)
+## 📘 Overview
 
 This project demonstrates SQL mastery through the design and implementation of a comprehensive Travel & Tourism Management Database System.
 It includes database creation, normalization, DDL/DML/DQL operations, constraints, clauses, joins, operators, and cascade rules.
 
-###🧩 Project Objective
+### 🧩 Project Objective
 
 To build a relational database for managing information related to:
 
@@ -20,9 +20,9 @@ Reviews and Travel Packages
 
 Each table is designed to maintain data integrity using Primary Keys, Foreign Keys, Constraints, and Cascading Rules (ON DELETE/UPDATE CASCADE).
 
-###🏗️ Database Details
+### 🏗️ Database Details
 
-######Database Name: TravelTourismDB
+###### Database Name: TravelTourismDB
 
 Total Tables: 12
 
@@ -50,11 +50,11 @@ Packages – Predefined travel packages
 
 PackageItems – Activities, destinations, and inclusions within packages
 
-#####⚙️ SQL Concepts Covered
+##### ⚙️ SQL Concepts Covered
 
 This project showcases all key SQL components, including:
 
-###🏗️ DDL (Data Definition Language)
+### 🏗️ DDL (Data Definition Language)
 
 CREATE, ALTER, DROP, TRUNCATE statements
 
@@ -62,15 +62,15 @@ PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT, UNIQUE constraints
 
 Cascading rules using ON DELETE CASCADE, ON UPDATE CASCADE
 
-###💾 DML (Data Manipulation Language)
+### 💾 DML (Data Manipulation Language)
 
 INSERT INTO, UPDATE, DELETE
 
-###🔍 DQL (Data Query Language)
+### 🔍 DQL (Data Query Language)
 
 SELECT, JOIN, GROUP BY, HAVING, ORDER BY, LIMIT, DISTINCT, ALIAS
 
-###🔢 SQL Operators
+### 🔢 SQL Operators
 
 Comparison: =, <, >, <>
 
@@ -82,29 +82,29 @@ Pattern Matching: LIKE
 
 Aggregate Functions: SUM(), AVG(), COUNT(), MAX(), MIN()
 
-###🧠 Example Queries
-#####1️⃣ Retrieve all 5-star hotels:
+### 🧠 Example Queries
+##### 1️⃣ Retrieve all 5-star hotels:
 SELECT hotel_name, address, price_per_night
 FROM Hotels
 WHERE star_rating = 5;
 
-#####2️⃣ Show top 5 populated countries:
+##### 2️⃣ Show top 5 populated countries:
 SELECT country_name, population
 FROM Countries
 ORDER BY population DESC
 LIMIT 5;
 
-#####3️⃣ Join bookings with customer details:
+##### 3️⃣ Join bookings with customer details:
 SELECT b.booking_id, c.first_name, c.last_name, b.total_amount, b.payment_status
 FROM Bookings b
 JOIN Customers c ON b.customer_id = c.customer_id;
 
-#####4️⃣ Count destinations by category:
+##### 4️⃣ Count destinations by category:
 SELECT category, COUNT(*) AS total_destinations
 FROM Destinations
 GROUP BY category;
 
-###🔄 Relationships (Cascading Rules)
+### 🔄 Relationships (Cascading Rules)
 
 Countries → Cities → Destinations → Hotels
 
@@ -116,7 +116,7 @@ Packages → PackageItems (activities & inclusions)
 
 Cascading ensures automatic updates/deletes across related records for database consistency.
 
-###🧰 Tools Used
+### 🧰 Tools Used
 
 Database System: MySQL 8.0+
 
@@ -124,7 +124,7 @@ Editor: MySQL Workbench / VS Code
 
 File: SonalShelke_Travel&Tourism Management.sql
 
-###📊 Project Highlights
+### 📊 Project Highlights
 
 12 fully normalized tables
 
@@ -134,7 +134,7 @@ Use of JOINs, Constraints, Operators, and Clauses
 
 Demonstrates real-world database modeling for the tourism industry
 
-###🚀 How to Run
+### 🚀 How to Run
 
 Open MySQL Workbench or any SQL editor.
 
@@ -154,13 +154,13 @@ Run any query block to explore data or test cascade operations.
 
 ###
 
-###🧑‍💻 Author
+### 🧑‍💻 Author
 
 Name: Sonal Shelke
 Project Phase: 2 – SQL Query Implementation
 Submission: Travel & Tourism Management Database
 Year: 2025
 
-###🏁 Conclusion
+### 🏁 Conclusion
 
 This project successfully demonstrates comprehensive SQL knowledge, covering database creation, manipulation, querying, and optimization — structured to reflect a real-life Travel & Tourism Management System.
