@@ -48,8 +48,6 @@ Each table has **10 attributes** with constraints (PRIMARY KEY, FOREIGN KEY, UNI
 
 ---
 
-## 📊 ER Diagram
-
 ## 📸 Results
 
 ## 📈 Analysis
