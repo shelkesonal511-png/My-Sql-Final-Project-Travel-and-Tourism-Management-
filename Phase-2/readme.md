@@ -153,7 +153,7 @@ SHOW TABLES;
 Run any query block to explore data or test cascade operations.
 
 ### 📸 Results
-
+Check Screenshots Folder
 
 ### 🧑‍💻 Author
 
