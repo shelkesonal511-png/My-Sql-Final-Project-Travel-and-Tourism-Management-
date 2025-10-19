@@ -26,29 +26,29 @@ Each table is designed to maintain data integrity using Primary Keys, Foreign Ke
 
 Total Tables: 12
 
-Countries – Stores global country details
+**Countries** – Stores global country details
 
-Cities – City-wise details linked to countries
+**Cities** – City-wise details linked to countries
 
-Destinations – Tourist attractions and landmarks
+**Destinations** – Tourist attractions and landmarks
 
-Hotels – Accommodation details for each destination
+**Hotels** – Accommodation details for each destination
 
-Flights – Flight information between cities
+**Flights** – Flight information between cities
 
-Airlines – Airline details with fleet and country info
+**Airlines** – Airline details with fleet and country info
 
-Customers – Traveller personal and contact information
+**Customers** – Traveller personal and contact information
 
-Bookings – Flight and hotel bookings by customers
+**Bookings** – Flight and hotel bookings by customers
 
-Payments – Payment details and methods
+**Payments** – Payment details and methods
 
-Reviews – Customer feedback on destinations, hotels, and flights
+**Reviews** – Customer feedback on destinations, hotels, and flights
 
-Packages – Predefined travel packages
+**Packages** – Predefined travel packages
 
-PackageItems – Activities, destinations, and inclusions within packages
+**PackageItems** – Activities, destinations, and inclusions within packages
 
 ##### ⚙️ SQL Concepts Covered
 
