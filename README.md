@@ -5,19 +5,12 @@
 
 ---
 
-## 📌 Table of Contents
+## ## 👤 Presenter & Mentor  
+| Role | Name | Specialization |
+|------|------|----------------|
+| Created By | Sonal Shelke | Data Analytics |
+| Academic Mentor | Shalini Verma | Tourism Management |
 
-- [📖 Overview](#-overview)
-- [🧱 Database Schema](#-database-schema)
-- [🛠 Features Implemented](#-features-implemented)
-- [📝 SQL Queries](#-sql-queries)
-- [📊 Sample Data](#-sample-data)
-- [📦 Installation](#-installation)
-- [🧪 How to Use](#-how-to-use)
-- [📁 Project Structure](#-project-structure)
-- [🎯 Future Improvements](#-future-improvements)
-- [🧑‍💻 Author](#-author)
-- [📄 License](#-license)
 
 ---
 
