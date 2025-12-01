@@ -27,48 +27,31 @@ Focused on achieving:
 • Operational Efficiency: Automated booking workflows and itinerary validation.
 
 • Revenue Maximization: Transparent tracking of package sales, profits, and demand trends.
+
 ---
 
-## 🧱 Database Schema
+## 🌐 2. Architecture and Scope  
 
-The project includes the following tables (example):
+The system is built on a normalized SQL schema covering major functional areas of the travel and tourism business.
 
-1. **Customers**
-   - customer_id (PK)
-   - name
-   - email
-   - phone
-   - address
+### **Domain Coverage**
 
-2. **Destinations**
-   - destination_id (PK)
-   - name
-   - country
-   - description
+| Domain | Key Data Managed |
+|--------|------------------|
+| Tour Packages | Destinations, packages, pricing, itineraries |
+| Bookings | Customer bookings, payments, cancellations |
+| Travel Operations | Hotels, transport services, vendors, tour guides |
+| Marketing & Engagement | Leads, customer feedback, travel history |
 
-3. **Packages**
-   - package_id (PK)
-   - destination_id (FK)
-   - title
-   - price
-   - duration_days
+### **Integration Point**
 
-4. **Bookings**
-   - booking_id (PK)
-   - customer_id (FK)
-   - package_id (FK)
-   - booking_date
-   - number_of_people
-   - total_amount
+| Integration Area | Description |
+|------------------|-------------|
+| Bookings ↔ Payments | Ensures accurate transaction tracking |
+| Packages ↔ Operations | Aligns tour availability with hotel/transport vendors |
+| Customer Data ↔ Feedback | Enables personalized recommendations |
 
-5. **Payments**
-   - payment_id (PK)
-   - booking_id (FK)
-   - payment_date
-   - amount
-   - payment_method
 
-> All relationships are normalized to 3NF for data integrity.
 
 ---
 
