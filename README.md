@@ -55,38 +55,66 @@ The system is built on a normalized SQL schema covering major functional areas o
 
 ---
 
-## 🛠 Features Implemented
+## ✨ 3. Key Features and Business Value  
 
-- 🔍 View all available tour packages and destinations
-- 📋 Register customers and manage customer data
-- 🧾 Book tour packages for customers
-- 💳 Manage payments and calculate total cost
-- 📈 Run analytical queries on bookings and revenue
+| Feature Category | Technical Implementation | Business Insight |
+|------------------|--------------------------|------------------|
+| Customer Personalization | Complex SQL JOIN queries across Customer, Booking, Package tables | Enables personalized travel recommendations and targeted offers |
+| Automation | CREATE VIEW, Stored Procedures, Triggers | Auto-updates availability, generates booking reports, reduces manual workload |
+| Financial Accuracy | TCL (START TRANSACTION, COMMIT, ROLLBACK) | Prevents partial payments or incomplete bookings ensuring financial reliability |
+| Analytics & Insights | Window Functions (RANK(), PARTITION BY, OVER()) | Identifies top-selling packages, peak seasons, and high-performing agents |
+| Security | DCL commands (GRANT, REVOKE) | Protects sensitive customer and payment information |
+| Operational Efficiency | Normalized schema with indexed tables | Faster queries and optimized backend travel operations |
 
----
-
-## 📝 SQL Queries
-
-The project includes various SQL scripts for:
-
-- Creating tables and defining constraints
-- Inserting sample data
-- Joining multiple tables
-- Filtering and sorting results
-- Aggregation (SUM, COUNT, AVG)
-- Grouping (GROUP BY, HAVING)
-- Subqueries and nested queries
-- Views and stored procedures *(if applicable)*
 
 ---
 
-## 📊 Sample Data
+## 🛠️ 4. Technologies Used
 
-Sample data is provided in the `sample_data.sql` file to demonstrate the working of the database. You can import this into your MySQL instance to get started quickly.
+Database: MySQL / MariaDB / PostgreSQL
+
+Core SQL Concepts Applied:
+
+• DDL, DML, DQL
+
+• Views
+
+• Stored Procedures & Triggers
+
+• User-Defined Functions (UDFs)
+
+• Window Functions
+
+• Transaction Control (TCL)
+
+• Access Control (DCL)
+
+• Normalization (1NF → 3NF)
 
 ---
 
-## 📦 Installation
+## 🚀 5. Project Impact & Future Scope
+Impact:
+
+• 100% Centralized Data: All customer, booking, and vendor details stored in one database.
+
+• Operational Excellence: Reduces manual work with automated SQL routines.
+
+• Enhanced Decision Making: Real-time insights into customer behavior & seasonal demand.
+
+• Accuracy & Speed: Faster booking confirmations and problem resolution.
+
+Future Scope:
+
+• BI Dashboard Integration: Power BI / Tableau for interactive analytics.
+
+• AI-Based Recommendation System: Suggests trips based on user interests & budget.
+
+• Automated Notification System: Email/SMS triggers for booking confirmations, reminders.
+
+• Mobile App/Website Backend: Use this database as the foundation for an online travel booking platform.
+
+---
 
 ### Prerequisites
 
