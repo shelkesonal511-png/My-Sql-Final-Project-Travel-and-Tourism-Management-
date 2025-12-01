@@ -14,18 +14,19 @@
 
 ---
 
-## 📖 Overview
+## 🎯 1. Project Objective & Main Purpose
 
-This project is a **final SQL-based academic project** for managing operations in a **Travel and Tourism Management System**. It involves designing and implementing a relational database with normalized tables, relationships, and operations to manage:
+The primary objective is to eliminate fragmented travel agency systems (separate booking sheets, manual itineraries, vendor Excel files) and replace them with a centralized SQL-based RDBMS.
 
-- Customer details
-- Tour packages
-- Bookings and payments
-- Destination information
-- Travel schedules
+Main Purpose: Enable Data-Driven Tourism Operations
 
-It serves as a practical demonstration of **DBMS concepts**, including ER modeling, normalization, primary & foreign keys, and structured SQL querying.
+Focused on achieving:
 
+• Customer Satisfaction: Personalized recommendations & faster service.
+
+• Operational Efficiency: Automated booking workflows and itinerary validation.
+
+• Revenue Maximization: Transparent tracking of package sales, profits, and demand trends.
 ---
 
 ## 🧱 Database Schema
