@@ -48,7 +48,6 @@ Each table has **10 attributes** with constraints (PRIMARY KEY, FOREIGN KEY, UNI
 
 ---
 
-## 📸 Results
 
 ## 📈 Analysis
 
@@ -61,7 +60,7 @@ Helps agencies manage resources like guides, vehicles, and hotel rooms.
 Enhances customer satisfaction with loyalty programs and coupons.
 
 ## 📝 Reflection
-✅ Challenges:
+#### ✅ Challenges:
 
 Designing 25 tables without redundancy (normalization).
 
@@ -69,7 +68,7 @@ Handling multiple relationships with foreign keys.
 
 Populating 20 realistic records per table.
 
-💡 Solutions:
+#### 💡 Solutions:
 
 Applied PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, DEFAULT constraints.
 
