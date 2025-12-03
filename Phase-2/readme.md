@@ -74,8 +74,11 @@ Run any query block to explore data or test cascade operations.
 ### 🧑‍💻 Author
 
 Name: Sonal Shelke
+
 Project Phase: 2 – SQL Query Implementation
+
 Submission: Travel & Tourism Management Database
+
 Year: 2025
 
 ### 🏁 Conclusion
