@@ -20,101 +20,27 @@ Reviews and Travel Packages
 
 Each table is designed to maintain data integrity using Primary Keys, Foreign Keys, Constraints, and Cascading Rules (ON DELETE/UPDATE CASCADE).
 
-### 🏗️ Database Details
+## 📊Highlights of Implemented Queries
 
-###### Database Name: TravelTourismDB
+The **TravelTourismDB** script includes dedicated query sections covering essential travel-industry business areas:
 
-Total Tables: 12
+| **Table / Area** | **Query Focus** | **Example Capabilities** |
+|------------------|------------------|---------------------------|
+| **Countries (T1)** | Global Geography & Analytics | Retrieve top populated countries, list countries by continent, and show countries with the highest number of tourist destinations. |
+| **Cities (T2)** | City Insights | Count cities per country, identify major travel hubs, and list cities connected through flight routes. |
+| **Destinations (T3)** | Tourism & Attractions | Count destinations by category, filter attractions by entry fees, and identify popular or high-rated destinations. |
+| **Hotels (T4)** | Accommodation & Pricing | Retrieve 5-star hotels, calculate average hotel price per city, and list top-rated hotels based on customer reviews. |
+| **Airlines (T5)** | Aviation Operations | View airlines by country, identify airlines with large fleets, and retrieve airlines operating international or domestic flights. |
+| **Flights (T6)** | Flight Routes & Schedules | Find flights by departure/arrival city, check cheapest routes, and track fully booked or delayed flights. |
+| **Customers (T7)** | Traveller Insights | List customers by region, identify repeat travelers, and check customers with pending or failed payments. |
+| **Bookings (T8)** | Booking Management | Join bookings with customer details, calculate total booking amount, analyze booking status (confirmed/cancelled), and view monthly booking trends. |
+| **Payments (T9)** | Finance & Transactions | Track payment status, calculate total revenue, view payments by method, and list failed or pending transactions. |
+| **Reviews (T10)** | Customer Feedback | Calculate average ratings, track low-rated hotels/airlines/destinations, and identify customers who submitted multiple reviews. |
+| **Packages (T11)** | Travel Package Insights | View package details, filter by duration or price, identify best-selling packages, and list packages targeting specific destinations. |
+| **PackageItems (T12)** | Activities & Inclusions | Count activities per package, list included destinations/activities, and identify package combinations with highest value. |
+| **Complex Joins** | Cross-Domain Travel Intelligence | Build full customer itineraries, identify high-value customers, analyse best-performing destinations, and evaluate most profitable packages and routes. |
 
-**Countries** – Stores global country details
 
-**Cities** – City-wise details linked to countries
-
-**Destinations** – Tourist attractions and landmarks
-
-**Hotels** – Accommodation details for each destination
-
-**Flights** – Flight information between cities
-
-**Airlines** – Airline details with fleet and country info
-
-**Customers** – Traveller personal and contact information
-
-**Bookings** – Flight and hotel bookings by customers
-
-**Payments** – Payment details and methods
-
-**Reviews** – Customer feedback on destinations, hotels, and flights
-
-**Packages** – Predefined travel packages
-
-**PackageItems** – Activities, destinations, and inclusions within packages
-
-##### ⚙️ SQL Concepts Covered
-
-This project showcases all key SQL components, including:
-
-### 🏗️ DDL (Data Definition Language)
-
-CREATE, ALTER, DROP, TRUNCATE statements
-
-PRIMARY KEY, FOREIGN KEY, CHECK, DEFAULT, UNIQUE constraints
-
-Cascading rules using ON DELETE CASCADE, ON UPDATE CASCADE
-
-### 💾 DML (Data Manipulation Language)
-
-INSERT INTO, UPDATE, DELETE
-
-### 🔍 DQL (Data Query Language)
-
-SELECT, JOIN, GROUP BY, HAVING, ORDER BY, LIMIT, DISTINCT, ALIAS
-
-### 🔢 SQL Operators
-
-Comparison: =, <, >, <>
-
-Logical: AND, OR, NOT
-
-Range: BETWEEN, IN
-
-Pattern Matching: LIKE
-
-Aggregate Functions: SUM(), AVG(), COUNT(), MAX(), MIN()
-
-### 🧠 Example Queries
-##### 1️⃣ Retrieve all 5-star hotels:
-SELECT hotel_name, address, price_per_night
-FROM Hotels
-WHERE star_rating = 5;
-
-##### 2️⃣ Show top 5 populated countries:
-SELECT country_name, population
-FROM Countries
-ORDER BY population DESC
-LIMIT 5;
-
-##### 3️⃣ Join bookings with customer details:
-SELECT b.booking_id, c.first_name, c.last_name, b.total_amount, b.payment_status
-FROM Bookings b
-JOIN Customers c ON b.customer_id = c.customer_id;
-
-##### 4️⃣ Count destinations by category:
-SELECT category, COUNT(*) AS total_destinations
-FROM Destinations
-GROUP BY category;
-
-### 🔄 Relationships (Cascading Rules)
-
-Countries → Cities → Destinations → Hotels
-
-Customers → Bookings → Payments & Reviews
-
-Cities ↔ Flights (departure & arrival)
-
-Packages → PackageItems (activities & inclusions)
-
-Cascading ensures automatic updates/deletes across related records for database consistency.
 
 ### 🧰 Tools Used
 
@@ -124,15 +50,6 @@ Editor: MySQL Workbench / VS Code
 
 File: SonalShelke_Travel&Tourism Management.sql
 
-### 📊 Project Highlights
-
-12 fully normalized tables
-
-20+ sample queries for each SQL operation
-
-Use of JOINs, Constraints, Operators, and Clauses
-
-Demonstrates real-world database modeling for the tourism industry
 
 ### 🚀 How to Run
 
@@ -152,8 +69,7 @@ SHOW TABLES;
 
 Run any query block to explore data or test cascade operations.
 
-### 📸 Results
-Check Screenshots Folder
+
 
 ### 🧑‍💻 Author
 
