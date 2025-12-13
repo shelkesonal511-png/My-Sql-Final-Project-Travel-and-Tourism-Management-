@@ -1,14 +1,14 @@
-#🧳 Travel and Tourism Management System 
+# 🧳 Travel and Tourism Management System 
 
 This repository tracks the development of a comprehensive Travel and Tourism Management System is designed to manage tour packages, bookings, customers, agents, payments, and post-trip feedback.
 
 The project focuses on building a robust database-driven system that supports real-world travel business operations such as package management, reservations, pricing, and reporting.
 
-##⚙️ Phase 3: Advanced SQL Functions and Data Automation
+## ⚙️ Phase 3: Advanced SQL Functions and Data Automation
 
 Phase 3 transitions from basic query development to implementing advanced SQL features that enhance data manipulation, automate business workflows, and improve database efficiency. This phase is critical for preparing the database for seamless integration with the application layer.
 
-##🎯 Objectives of Phase 3
+## 🎯 Objectives of Phase 3
 
 Implement Complex Joins
 Enable detailed reporting across multiple domain tables (e.g., Bookings, Packages, Agents, Customers).
@@ -22,7 +22,9 @@ Develop User-Defined Functions (UDFs) and Stored Procedures to encapsulate busin
 Data Integrity Enforcement
 Introduce Triggers to ensure critical business constraints are enforced directly at the database level.
 
-##📁 Phase 3 SQL File Structure
+## 📁 Phase 3 SQL File Structure
+The file PHASE 3.sql is the core focus of this phase and contains a wide range of advanced SQL implementations, organized by feature type for clarity and maintainability.
+## ✨ Highlights of Implemented Features
 | Feature Category | Description | Example Queries / Logic |
 |-----------------|------------|-------------------------|
 | Complex Joins | Combining data from multiple tables to generate detailed reports. | Listing all customers who booked a tour package for an "Upcoming" destination through a specific travel agent. |
@@ -34,7 +36,7 @@ Introduce Triggers to ensure critical business constraints are enforced directly
 | Triggers | Automating database actions on INSERT, UPDATE, or DELETE events. | BEFORE INSERT trigger to automatically standardize destination names to uppercase. |
 
 
-###🛠️ Next Steps
+### 🛠️ Next Steps
 
 With Phase 3 completed, the database layer is optimized and ready for full-scale application development:
 
@@ -47,13 +49,13 @@ Connect a responsive frontend (Web or Mobile) to the API to allow users to brows
 ORM Configuration
 Leverage defined keys, constraints, and advanced SQL logic to configure an Object-Relational Mapper (ORM) for scalable and maintainable application development.
 
-##📌 Project Status
+## 📌 Project Status
 
 ✅ Database Design Completed
 ✅ Advanced SQL Implementation (Phase 3)
 🚧 API & Application Layer (Upcoming)
 
-###📄 License
+### 📄 License
 
 This project is developed for educational and learning purposes. You are free to modify and extend it for academic or personal use.
 
